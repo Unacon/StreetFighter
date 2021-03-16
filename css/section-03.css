@@ -1,6 +1,6 @@
 .section-03{
     width: 100vw;
-    height: 100vh;
+
 
     display: flex;
     /* justify-content: center; */
@@ -19,7 +19,7 @@
     font-size: 1.5rem;
     text-align: center;
     font-weight: 500;
-    padding-bottom: 7rem;
+    padding-bottom: 2rem;
 }
 
 .section-03 > .title{
@@ -27,7 +27,7 @@
     font-weight: 700;    
     font-style: italic;
     color: #212529;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .section-03 > button.black{
@@ -49,8 +49,8 @@
 
 .section-03 > .design{
     width: 80vw;
-    padding-bottom: 1.5rem;
-    padding-top: 3rem;
+    padding-bottom: 1rem;
+
     font-size: 2rem;
     
     display: flex;
