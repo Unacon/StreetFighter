@@ -1,0 +1,53 @@
+footer{
+    width: 100vw;
+ 
+    background-color: #121212;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem; 
+}
+
+
+footer > .container{
+    display: flex;
+    flex-direction: row; 
+}
+
+footer > .container .link{
+    padding-left: 1.5rem;
+}
+
+footer > .container > .link .icon{
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #121212;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    font-size: 1.2rem;
+
+}
+
+
+footer > span{
+    font-size: 1.5rem;
+    font-weight: 300;    
+    font-style: italic;
+    letter-spacing: 1.2px;
+
+    /* transform: rotate(20deg); */
+   
+    /* font-display: initial; */
+    padding-bottom: 2rem; 
+}

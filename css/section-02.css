@@ -1,0 +1,73 @@
+.section-02{
+    width: 100vw;
+    /* height: 100vh; */
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    
+}
+
+.section-02 > .section-02-container{
+    width: 100%;
+    /* padding: 2rem; */
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section-02 > .section-02-container > .personagem{
+    width: 100%; 
+    padding-bottom: 1rem;
+    
+}
+.section-02 > .section-02-container > .personagem > img{
+    width: 100%;
+    border-radius: 5%;
+}
+
+
+
+
+
+
+.section-02 > span{
+    font-size: 3rem;
+    font-weight: 700;    
+    font-style: italic;
+    color: #121212;
+    /* transform: rotate(20deg); */
+   
+    /* font-display: initial; */
+    margin-bottom: 1rem;    
+}
+
+
+.section-02 > .design{
+    width: 80vw;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-02 > .design::before, .section-02 > .design::after{
+    content: "";
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 2px;
+    width: 15%;
+    display: block;
+    background-color: black;
+    /* position: relative; */
+    /* transition: left 2s, right 2s; */
+}
