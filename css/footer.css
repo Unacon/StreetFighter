@@ -20,9 +20,8 @@ footer > .container{
     justify-content: space-evenly; 
 }
 
-footer > .container .link{
-    
-}
+
+
 
 footer > .container > .link .icon{
     width: 3rem;
@@ -36,7 +35,16 @@ footer > .container > .link .icon{
     border-radius: 100%;
     font-size: 1.2rem;
 
+    transition: all 2s;
+
 }
+
+footer > .container > .link .icon:hover{
+    width: 4rem;
+    height: 4rem;
+    font-size: 1.5rem;
+}
+
 
 
 footer > span{

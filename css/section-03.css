@@ -37,8 +37,14 @@
     border-radius: 15px;
     padding: 1rem 1.5rem;    
     font-weight: 500;
-    border: 0;
-   
+    border: 0;   
+
+    transition: all 2s;
+}
+
+.section-03 > button.black:hover{
+    background-color: #212529;
+    color: #fff;
 }
 
 .section-03 > button.black > span{

@@ -22,8 +22,18 @@ header > .menu{
     justify-content: center;
 }
 
-header > .menu > div{
+header > .menu > .icon{
     padding: 0.5rem;
     font-size: 1rem;
     font-weight: 500;
+    transition: background-color 2s;
+}
+
+header > .menu > .icon:hover{
+    background-color: #212529;
+}
+
+header > .menu > .icon a{
+    text-decoration: none;
+    color: #fff;
 }
