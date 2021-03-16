@@ -98,5 +98,6 @@
     }
     .feedback > form{
     width: auto;
+    height: auto;
     }
 }
