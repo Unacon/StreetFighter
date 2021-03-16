@@ -9,11 +9,8 @@
     background-color: #fff;
     
     
+    padding: 2rem 1rem;
 
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    padding-left: 2rem;
-    padding-right: 2rem; 
 }
 
 .feedback > form button.yellow{
@@ -34,8 +31,7 @@
     height: 100%;
     display: flex;
     align-items: flex-start;
-    flex-direction: column;
-    
+    flex-direction: column;   
 }
 
 .feedback > form > div{
@@ -45,30 +41,28 @@
 }
 
 .feedback > form > div label{
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.2rem;
     font-size: 1.2rem;
 }
 
 .feedback > span{
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 700;    
     font-style: italic;
     color: #121212;
     /* transform: rotate(20deg); */
    
     /* font-display: initial; */
-    padding-bottom: 2rem; 
+    padding-bottom: 1rem; 
 }
 
 
 .feedback > .design{
     width: 80vw;
     padding-bottom: 1rem;
-    padding-top: 1.5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
 }

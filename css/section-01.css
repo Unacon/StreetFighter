@@ -8,20 +8,24 @@
     align-items: center;
     flex-direction: column;
 
+    padding: 2rem 1rem;
+
     text-transform: uppercase;
 }
 
 .section-01 > img{
-    width: 70vw;
-    height: 50vh;
-    padding-top: 5rem;
-    padding-bottom: 2rem;
+    width: 100vw;
+    height: 40vh;
+    /* padding-top: 5rem; */
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
         
 }
 .section-01 > .design{
     width: 80vw;
     padding-bottom: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,12 +44,17 @@
 }
 
 .section-01 > .title{
-    font-size: 3rem;
+    font-size: 2.2rem;
     font-weight: 700;    
     font-style: italic;
+    text-align: center;
     color: #212529;
     /* transform: rotate(20deg); */
    
     /* font-display: initial; */
-    margin-bottom: 1rem;    
+    padding-bottom: 1rem;    
+}
+
+.section-01 > span{
+    text-align: center;
 }

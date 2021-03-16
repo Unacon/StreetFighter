@@ -1,5 +1,6 @@
 .section-03{
     width: 100vw;
+    height: 100vh;
 
 
     display: flex;
@@ -8,24 +9,23 @@
     flex-direction: column;
     background-color: #f1a90d;
 
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    padding-left: 2rem;
-    padding-right: 2rem; 
+    padding: 4rem 1rem 2rem 1rem;
+
 }
 
 .section-03 > .text{
-    column-count: 1;
-    font-size: 1.5rem;
+    column-count: 2;
+    font-size: 1rem;
     text-align: center;
     font-weight: 500;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
 }
 
 .section-03 > .title{
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 700;    
     font-style: italic;
+    text-align: center;
     color: #212529;
     padding-bottom: 1rem;
 }
@@ -33,9 +33,9 @@
 .section-03 > button.black{
     background-color: #121212;
     color:#ffffff;
-    font-size: 1.5rem;
-    border-radius: 25px;
-    padding: 1.5rem 2.5rem;
+    font-size: 1rem;
+    border-radius: 15px;
+    padding: 1rem 1.5rem;    
     font-weight: 500;
     border: 0;
    
@@ -51,7 +51,7 @@
     width: 80vw;
     padding-bottom: 1rem;
 
-    font-size: 2rem;
+    font-size: 1.5rem;
     
     display: flex;
     justify-content: center;
