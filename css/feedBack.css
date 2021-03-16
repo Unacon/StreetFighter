@@ -34,6 +34,8 @@
 .feedback > form{
     width: 100%;
     height: 100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
     display: flex;
     align-items: flex-start;
     flex-direction: column;   
@@ -42,7 +44,8 @@
 .feedback > form > div{
     display: flex;
     flex-direction: column;
-    padding-bottom: 1rem;    
+    padding-bottom: 1rem;  
+    width: 100%;  
 }
 
 .feedback > form > div label{
@@ -82,4 +85,14 @@
     background-color: black;
     /* position: relative; */
     /* transition: left 2s, right 2s; */
+}
+
+/* Medium Devices - Tablet */
+@media (min-width: 641px){
+    .feedback > form > div.text{
+        width: 50%;
+    }
+    .feedback > form > div.textArea{
+        width: 100%;
+    }
 }

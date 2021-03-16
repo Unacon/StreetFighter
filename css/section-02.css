@@ -26,6 +26,7 @@
     padding-bottom: 0.5rem;
     
 }
+
 .section-02 > .section-02-container > .personagem > img{
     width: 100%;
     border-radius: 5%;
@@ -64,4 +65,22 @@
     background-color: black;
     /* position: relative; */
     /* transition: left 2s, right 2s; */
+}
+
+/* Medium Devices - Tablet */
+@media (min-width: 641px){
+    .section-02{
+        height: 100vh;
+    }
+    .section-02 > .section-02-container > .personagem {
+        width: 30%;        
+    }
+    .section-02 > .section-02-container {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
