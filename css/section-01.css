@@ -62,12 +62,13 @@
 /* Large Devices - Desktop */
 @media (min-width: 992px){
     .section-01 > img{
+        width: auto;
         height: 70%;
     }
 }
 /* Medium Devices - Tablet */
 @media (min-width: 641px){
     .section-01 > img{
-        width: auto;
+        
     }
 }
