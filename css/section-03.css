@@ -3,7 +3,7 @@
     height: 100vh;
 
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     background-color: #f1a90d;
@@ -50,7 +50,7 @@
 .section-03 > .design{
     width: 80vw;
     padding-bottom: 1.5rem;
-    padding-top: 1.5rem;
+    padding-top: 3rem;
     font-size: 2rem;
     
     display: flex;
