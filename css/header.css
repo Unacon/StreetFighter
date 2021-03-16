@@ -11,10 +11,9 @@ header{
     
 }
 
-/* header > img{
-    width: 20vw;
-    height: 10vh;    
-} */
+header > img{
+    padding: 1rem;  
+}
 
 header > .menu{    
     display: flex;
