@@ -1,20 +1,14 @@
 .section-02{
     width: 100%;
-    /* height: 100vh; */
-
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    flex-direction: column;
-
     padding: 2rem 1rem;
 
-    
+    display: flex;
+    align-items: center;
+    flex-direction: column;    
 }
 
 .section-02 > .section-02-container{
     width: 100%;
-    /* padding: 2rem; */
 
     display: flex;
     justify-content: center;
@@ -23,8 +17,7 @@
 
 .section-02 > .section-02-container > .personagem{
     width: 100%; 
-    padding-bottom: 0.5rem;
-    
+    padding-bottom: 0.5rem;    
 }
 
 .section-02 > .section-02-container > .personagem > img{
@@ -38,47 +31,20 @@
     font-style: italic;
     text-align: center;
     color: #121212;
-    /* transform: rotate(20deg); */
-   
-    /* font-display: initial; */
     padding-bottom: 1rem;    
-}
-
-
-.section-02 > .design{
-    width: 80vw;
-    padding-bottom: 1rem;
-    font-size: 1.5rem;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.section-02 > .design::before, .section-02 > .design::after{
-    content: "";
-    margin-left: 1rem;
-    margin-right: 1rem;
-    height: 2px;
-    width: 20%;
-    display: block;
-    background-color: black;
-    /* position: relative; */
-    /* transition: left 2s, right 2s; */
 }
 
 /* Medium Devices - Tablet */
 @media (min-width: 641px){
-    .section-02{
-        /* height: 100vh; */
-    }
+
     .section-02 > .section-02-container > .personagem {
         width: 45%;        
     }
     .section-02 > .section-02-container {
+        height: 100%;
         padding-left: 2rem;
         padding-right: 2rem;
-        height: 100%;
+        
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -97,9 +63,10 @@
         padding-left: 1rem;       
     }
     .section-02 > .section-02-container {
+        height: 100%;
         padding-left: 2rem;
         padding-right: 2rem;
-        height: 100%;
+       
         display: flex;
         justify-content: space-between;
         align-items: center;

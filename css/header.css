@@ -36,6 +36,15 @@ header > .menu > .icon a{
     text-decoration: none;
     color: #fff;
 }
+
+
+/* Small Devices - Mobile Only */
+@media (min-width: 641px){
+    header > img{
+        margin-left: 1rem;
+    }
+}
+
 /* Large Devices - Desktop */
 @media (min-width: 992px){
     header > .menu > .icon{

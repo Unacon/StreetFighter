@@ -1,17 +1,14 @@
 footer{
-    width: 100%;
- 
+    width: 100%; 
     background-color: #121212;
     color: #fff;
+    padding: 2rem 1rem;
 
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;  
-
-    padding: 2rem 1rem;
+    flex-direction: column;     
 }
-
 
 footer > .container{
     width: 100%;
@@ -20,23 +17,19 @@ footer > .container{
     justify-content: space-evenly; 
 }
 
-
-
-
 footer > .container > .link .icon{
     width: 3rem;
-    height: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    height: 3rem;    
     background-color: #121212;
     border: 2px solid #fff;
     border-radius: 100%;
     font-size: 1.2rem;
 
-    transition: all 2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    transition: all 2s;
 }
 
 footer > .container > .link .icon:hover{
@@ -45,16 +38,8 @@ footer > .container > .link .icon:hover{
     font-size: 1.5rem;
 }
 
-
-
-footer > span{
-    font-size: 1.5rem;
-    font-weight: 300;    
-    font-style: italic;
+footer > .title{
+    color: #fff;
+    font-size: 1.5rem;    
     letter-spacing: 1.2px;
-
-    /* transform: rotate(20deg); */
-   
-    /* font-display: initial; */
-    padding-bottom: 1rem; 
 }
