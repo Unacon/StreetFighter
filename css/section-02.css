@@ -9,7 +9,7 @@
 
 .section-02 > .section-02-container{
     width: 100%;
-
+    max-width: 1000px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -59,7 +59,7 @@
         height: 100vh;
     }
     .section-02 > .section-02-container > .personagem {
-        width: 250px; 
+        width: 300px; 
         padding-left: 1rem;       
     }
     .section-02 > .section-02-container {

@@ -17,6 +17,11 @@
     font-size: 1.5rem;
 }
 
+.feedback > form input{
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
 
 .feedback > form{
     width: 100%;
@@ -34,6 +39,10 @@
 
     display: flex;
     flex-direction: column; 
+}
+.feedback > form textArea{
+    border: none;
+    border-bottom: 1px solid #ccc;
 }
 
 .feedback > form > div label{
